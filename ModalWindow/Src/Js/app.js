@@ -6,9 +6,12 @@ import {
   SWEET_LOVE,
   MICHEL_FUGAIN,
 } from './list_roses.js';
+import SeeDetailRose from './components.js';
 
 const btnDetailRose1 = document.querySelector('.btn_detail_rose_1');
+const sectionModal = document.querySelector('.section_modal');
+const articleModal = document.querySelector('.article_modal');
 
-let SeeDetailRose = (x, y, z, a, b, c) => {};
-
-btnDetailRose1.onclick = () => {};
+btnDetailRose1.onclick = () => {
+  SeeDetailRose(btnDetailRose1, sectionModal, articleModal, BERNADETTE_LAFONT);
+};

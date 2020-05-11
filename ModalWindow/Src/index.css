@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  position: relative;
+}
+
+.section_modal {
+  background-color: aqua;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.3s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.section_modal_active {
+  transition-delay: 0.3s;
+  opacity: 1;
+  z-index: 1;
+}
+
+.article_modal {
+}
