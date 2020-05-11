@@ -1,3 +1,3 @@
 ## _\*\*En cours de production_
 
-# Serie de composant web
+# Serie de composants web
