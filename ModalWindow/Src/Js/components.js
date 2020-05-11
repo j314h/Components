@@ -1,14 +1,10 @@
-let SeeDetailRose = (artModal, rose) => {
-  CreateComponentRose(artModal, rose);
-};
-
+//supprime les elements creer dans le modal pour en reafficher au besoin
 let RemoveElement = (x, y) => {
   x.removeChild(y);
 };
 
-export { SeeDetailRose, RemoveElement };
-
-let CreateComponentRose = (x, y) => {
+//creation des elements dans la section modal
+let SeeDetailRose = (x, y) => {
   //construction contenaire
   const container = document.createElement('div');
   container.className = 'div_container';
@@ -66,3 +62,5 @@ let CreateComponentRose = (x, y) => {
 
   x.insertAdjacentElement('beforeend', container);
 };
+
+export { SeeDetailRose, RemoveElement };
