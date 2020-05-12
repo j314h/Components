@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+}
+
 /*-----------------------------------------------------------------------------------------*/
 
 /*-------------------------------------- header ---------------------------------------------------*/
@@ -124,10 +129,8 @@ article {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.96);
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   transition-delay: 0.3s;
   opacity: 0;
   z-index: -1;
