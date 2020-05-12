@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-}
-
 /*-----------------------------------------------------------------------------------------*/
 
 /*-------------------------------------- header ---------------------------------------------------*/
@@ -34,7 +29,7 @@ h1 {
 .img_rose_1 {
   background-image: url('../Assets/rose_1_lafont.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -42,7 +37,7 @@ h1 {
 .img_rose_2 {
   background-image: url('../Assets/rose_2_autissier.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -50,7 +45,7 @@ h1 {
 .img_rose_3 {
   background-image: url('../Assets/rose_3_huit.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -58,7 +53,7 @@ h1 {
 .img_rose_4 {
   background-image: url('../Assets/rose_4_ferre.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -66,7 +61,7 @@ h1 {
 .img_rose_5 {
   background-image: url('../Assets/rose_5_love.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -74,7 +69,7 @@ h1 {
 .img_rose_6 {
   background-image: url('../Assets/rose_6_fugain.jpg');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   height: 250px;
   width: 250px;
 }
@@ -84,6 +79,10 @@ h1 {
 /*-------------------------------------- corps ---------------------------------------------------*/
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   padding: 20px 20px 50px 20px;
 }
@@ -95,12 +94,35 @@ h2 {
   padding: 30px 0px 30px 0px;
 }
 
+.box_roses {
+  width: 1200px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 320px;
+  margin: 10px;
+  border: 1px solid #000000;
+}
+
 /*-----------------------------------------------------------------------------------------*/
 
 /*-------------------------------------- modal ---------------------------------------------------*/
 
 .section_modal {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.96);
   position: absolute;
   top: 0;
   left: 0;
@@ -119,6 +141,8 @@ h2 {
 }
 
 .article_modal {
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 /*-----------------------------------------------------------------------------------------*/
