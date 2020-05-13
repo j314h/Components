@@ -2,8 +2,8 @@
 
 - Description
 
-> Petit projet avec un site de rose (j'ai fais ce site juste pour représenter les fenêtres modale)  
-> Petite fenêtre de type modale qui apparait devant le contenue du site en cliquant sur details des rose  
+> Petit projet avec un site de roses (j'ai fais ce site juste pour représenter les fenêtres modale)  
+> Petite fenêtre de type modale qui apparait devant le contenue du site en cliquant sur details des roses  
 > pour vous donner des informations pertinantes sur l'element que vous avez cliquez.
 
 - Installation
