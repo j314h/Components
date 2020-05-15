@@ -11,4 +11,6 @@
 > Télécharger ou cloner le projet, puis executer le fichier index.html ou l'extension live server sur VSCode.
 
 **Informations divers**  
-_Les images sont libre de droits._
+_Les images sont libre de droits._  
+_Il n'y a pas de responsive ou autres technos pour adaptation mobile_  
+_J'ai fais une utilisation exclusive des flexs box pour tester_ ;-)
