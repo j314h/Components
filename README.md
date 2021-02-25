@@ -4,7 +4,7 @@
         it was a project to practice code when I started
         pure html css js
 
-- Voir les composants
+- See Components
 
-> Pour voir les composants cliquer sur un dossier correspondant au composant que vous voulez voir.  
-> Chaques dossiers contient un composant.
+> To view the components click on a folder corresponding to the component you want to view.  
+> Each folder contains a component.
