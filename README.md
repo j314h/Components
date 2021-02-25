@@ -1,6 +1,8 @@
-## _\*\*En cours de production_
+## _\*\*No more update_
 
-# Serie de composants web
+        web component series
+        it was a project to practice code when I started
+        pure html css js
 
 - Voir les composants
 
